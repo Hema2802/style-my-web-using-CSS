@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faculty+Glyphic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rowdies:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    font-family:"Chakra Petch", sans-serif;
+    font-size: 50px;
+    margin-left:-320px;
+    transition: all 6s ease-in-out 0s;
+}
+#header:hover{
+    text-shadow:1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.path{
+    display: flex;
+    flex-direction: column;/*vertical box*/
+    gap: 10px;  
+    height: 200px;
+    width: 400px; 
+    margin-left: 380px;
+}
+
+.room{
+    background-color: #BD8366;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: rgb(208, 138, 138);
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px; 
+    box-shadow: 50px -10px #9D664B;     
+}
+.room:hover{
+    background-color: rgb(225, 225, 204);
+}
+#item1{
+    flex: 1;
+
+}
+#item2{
+    flex: 2;
+    margin-left: auto;
+}
+.text{
+    text-decoration: none;
+    color: #0C0A0A;
+    font-family:"Nunito", sans-serif ;
+    font-weight: 800;
+    font-size: 20px;
+}
+

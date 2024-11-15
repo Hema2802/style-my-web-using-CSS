@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link up with me</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <main>
+    <form align="center" class="back">
+        
+            <fieldset class="font">
+                <legend><h2 id="header">Connect with me 🔗</h2></legend>
+                <!--Giving prefix of your name-->
+                 <p>
+                     <label for="prefix">Prefix of your name</label>
+                     <select name="prefix" id="prefix">
+                         <option value="Select">select</option>
+                         <option value="Mr">Mr</option>
+                         <option value="Ms">Ms</option>
+                         <option value="Dr">Dr</option>
+                     </select>
+                 </p>
+                 <!--First name -->
+                 <p>
+                     <label for="fname">First Name :</label>
+                     <input type="text" id="fname" name="fname" placeholder="Ex.Tharun" required> 
+                 </p>
+                 <!--last name-->
+                 <p>
+                     <label for="lname">Last Name :</label>
+                     <input type="text" id="lname" name="lname" placeholder="Ex.Santhosh" required>
+                 </p>
+                 <!--Your email and password-->
+                 <p>
+                     <label for="email">E-mail ID :</label>
+                     <input type="email" id="email" placeholder="Ex.abc@gmail.com" required>
+                 </p>
+                 <p>
+                     <label for="password">Password :</label>
+                     <input type="password" id="password" name="password" required>
+                 </p>
+                 <!--your phone number-->
+                 <p>
+                     <label for="phone">Phone number :</label>
+                     <input type="tel" id="phone" required pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+                 </p>
+                 <!--Select your gender-->
+                 <p>Select your gender :</p>
+                 <p>
+                     <input type="radio" name="gender" id="Male" value="male">
+                     <label for="male">Male</label>
+                     
+                     <input type="radio" name="gender" id="Female" value="Female">
+                     <label for="Female">Female</label>
+                     
+                     <input type="radio" name="gender" id="Others" value="Others">
+                     <label for="Others">Others</label>
+                 </p>
+                 <!--Your rating to my page-->
+                 <p>Your valuable rating to my page:</p>
+            <p>
+                <input type="radio" id="rating" name="feedback" value="5">
+                <label for="rating">5</label>
+
+                <input type="radio" id="rating" name="feedback" value="4">
+                <label for="rating">4</label>
+
+                <input type="radio" id="rating" name="feedback" value="3">
+                <label for="rating">3</label>
+
+                <input type="radio" id="rating" name="feedback" value="2">
+                <label for="rating">2</label>
+
+                <input type="radio" id="rating" name="feedback" value="1">
+                <label for="rating">1</label>
+            </p>
+    </form>
+    <!--Submit your form-->
+    <input type="submit" value="Submit">
+    <input type="button" value="Reset">
+   </fieldset>
+   <center>
+   <a href="frontpage.html">
+    <button>Go Back</button>
+   </a>
+  </center>
+   
+</main>
+</body>
+</html>
